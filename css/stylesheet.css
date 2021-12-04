@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: arial;
+    font-size: 16px;
+    margin: 0;
+    background: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+.containerv{
+    width: 85%;
+    position: relative;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 46px;
+    margin-bottom: 10px;
+  }
+  
+  #canvas {
+    width: 100%;
+  }
+  
+  @media only screen and (max-widtH: 300px) {
+    .container-canvas {
+      width: 90%;
+      height: 85%;
+    }
+  }
